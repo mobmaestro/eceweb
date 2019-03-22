@@ -1,0 +1,192 @@
+body{
+    background-color:beige;
+}
+#title{
+    background-color: #007bff;
+    padding-bottom: 90px;
+   ;
+}
+#functions,#message{
+    background-color: beige;
+    padding: 10% 10% 4% 10%;
+}
+#faculties{
+    background-color: #007bff;
+    text-align: center;
+}
+#footer{
+    background-color: #343a40;
+    padding: 2% 10%;
+}
+
+
+.navbar{
+    padding: 1% 15%;
+    text-align: center;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+}
+.nav-item{
+    font-family: "PT Sans";
+    color: beige;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+.grad{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -5px;
+    right: 5px;
+}
+.item2{
+    font-weight: unset;
+    padding: 5px 18px; 
+}
+.dp{
+    background-color: #343a40;
+    color: beige;
+}
+.card{
+    width:100% ;
+    border: none;
+    position: relative;
+    
+}
+.card-text{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    color: beige;
+}
+.card-title{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+}
+.card-body{
+    background-color: #007bff;
+}
+.ece-img{
+    width: 460px;
+    height: 300px;
+    padding-left: 70px;
+}
+.w-100{
+    width: unset;
+}
+.container-fluid{
+    padding: 5% 15%;
+}
+.nav-img{
+    position: relative;
+    left: -2px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+}
+
+.func-head{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+    
+    
+}
+.func-text{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    color: #8f8f8f;
+}
+.col-md-4{
+    padding: 3%;
+}
+.icon{
+    font-size: 2.5rem;
+    color: #007bff;
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+.faculty-text{
+    font-family: "PT Sans";
+    font-weight: bolder;
+    padding: 5%;
+    color: beige;
+    font-size: 3rem;
+}
+.faculty-about{
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    color: #cdffeb;
+    padding: 3%;
+    line-height: 2;
+}
+.fac-img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.fac-title{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3rem;
+    color: #007bff;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    position: relative;
+    top: 20px;
+}
+
+.srch-pane{
+    position: relative;
+    right: 15px;
+}
+.sub-btn{
+
+}
+.social-img{
+    width: 54px;
+    height: 70px;
+    padding: 5% 1%;
+}
+.info-text{
+    font-family: "PT Sans";
+    font-weight: bolder;
+    padding: 5%;
+    color: beige;
+}
+.ece-info{
+    text-align: left;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.cls-img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 4px
+}
+#faculty-sec{
+    background-color: #343a40;
+    position: relative;
+    top: 7px;
+}
+@media(max-width:580px){
+    .ece-img{
+        padding-left: 0px;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+        text-align: center;
+        position: relative;
+        right: 30px;
+    }
+    #functions{
+        padding-top:20%; 
+    }
+    .fac-title{
+        font-size: 2rem;
+        position: static;
+    }
+}
